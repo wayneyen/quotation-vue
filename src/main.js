@@ -1,10 +1,14 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-
-//---- CSS
+// ===================================== 外部套件 =====================================
+//---- Bootstrap
+import BootstrapVue from 'bootstrap-vue'
+Vue.use(BootstrapVue)
 import 'bootstrap/dist/css/bootstrap.css'
-import '../src/less/style_admin.less'
+import '@/less/style_admin.less'
 
-createApp(App).use(router).mount('#app')
-
+new Vue({
+    router,
+    render: h => h(App)
+}).$mount('#app');
