@@ -5,8 +5,6 @@ import router from './router'
 //---- Bootstrap
 import BootstrapVue from 'bootstrap-vue'
 Vue.use(BootstrapVue)
-import 'bootstrap/dist/css/bootstrap.css'
-import '@/less/style_admin.less'
 
 new Vue({
     router,

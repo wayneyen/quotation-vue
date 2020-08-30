@@ -5,7 +5,8 @@
 </template>
 
 <script>
-
+import 'bootstrap/dist/css/bootstrap.css'
+import '@/less/style_admin.less'
 
 export default {
   name: 'App',

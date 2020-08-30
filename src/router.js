@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
 let routes = [
-    {path: '/', name: 'Home', component: () => import( "@/views/Home"), meta: {title: '首頁'}},
+    {path: '/', name: 'Home', component: () => import( "@/components/Home"), meta: {title: '首頁'}},
 ];
 const router = new VueRouter({
     mode: 'history',
