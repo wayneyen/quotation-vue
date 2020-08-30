@@ -1,5 +1,4 @@
 <template>
-    <div id="app">
         <div class="input-group">
             <div class="side-bar">
                 <div class="menu">
@@ -77,7 +76,6 @@
             </div>
         </div>
 
-    </div>
 </template>
 
 <script>
